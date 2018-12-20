@@ -112,7 +112,10 @@ body {
     transform: scale(2); } }
 
 .wrap {
-  min-height: 700px; }
+  min-height: 815px; }
 
 .bg-black {
   background-color: #000000; }
+
+.pointer {
+  cursor: pointer; }

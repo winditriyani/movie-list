@@ -39,7 +39,8 @@ class Katalog extends React.Component {
         }
         return (
           <div className="col-md-4">
-            <div className="card">
+          <Link href={url}>
+            <div className="card pointer">
               <div className="card-header">
                 <img className="card-img" src={image} alt="Card image" />
               </div>
@@ -55,13 +56,9 @@ class Katalog extends React.Component {
                   </div>
                 </div>
                 <p className="card-text text-truncate">{dataList.opening_crawl}</p>
-                <Link href={url}>
-                  <a className="trailer-preview" target="new">
-                    <i className="fa fa-play" aria-hidden="true"></i>
-                  </a>
-                </Link>
               </div>
             </div>
+            </Link>
           </div>
         );
       });

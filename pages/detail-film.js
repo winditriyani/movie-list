@@ -34,13 +34,11 @@ class HomePage extends MainLayouts {
   render () {
     return super.render(
       <div>
-        <Fade bottom>
           <section className="bg-white">
             <div className="container">
               {this.getData()}
             </div>
           </section>
-        </Fade>
       </div>
     );
   }

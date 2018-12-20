@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Footer = () => (
   <div className="footer">
-    <div className="sub-footer" style={{ backgroundColor:'#2e7d32' }}>
+    <div className="sub-footer" style={{ backgroundColor:'#000' }}>
       <div className="container">
         <div className="row">
           <div className="col-md-12 mt-3">

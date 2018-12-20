@@ -45,6 +45,9 @@ class DetailFilm extends React.Component {
           <div className="col-md-8">
             <h1>{dataSet.title}</h1>
             <p>{dataSet.opening_crawl}</p>
+            <h4>Director : {dataSet.director}</h4>
+            <h4>Producer : {dataSet.producer}</h4>
+            <h4>Release Date : {dataSet.release_date}</h4>
           </div>
         </Fragment>
       );

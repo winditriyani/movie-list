@@ -12,7 +12,7 @@ class MainLayouts extends React.Component {
     return (
       <div>
         <Head>
-          <title>news</title>
+          <title>star wars</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           <link rel="stylesheet" href="../static/fontawesome/css/fontawesome-all.css" />
           <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
